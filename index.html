@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddha's Birthday Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card" id="card">
+            <div class="card-front">
+                <div class="card-header">
+                    <h1>Happy Buddha's Birthday</h1>
+                </div>
+                <div class="card-body">
+                    <img src="https://im.indiatimes.in/content/2023/May/Happy-Buddha-Purnima-photos_6453bc5dba263.jpg?w=400&h=300&cc=1&webp=1&q=75">
+                    <p>May the teachings of Buddha guide you on the path of peace, love, and enlightenment.</p>
+                </div>
+                <div class="card-footer">
+                    <button onclick="toggleCard()">Open Card</button>
+                </div>
+            </div>
+            <div class="card-back">
+                <div class="card-body">
+                    <p id="blessing-message">May Buddha's teachings bless you with wisdom and serenity.</p>
+                </div>
+                <div class="card-footer">
+                    <button onclick="toggleCard()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
